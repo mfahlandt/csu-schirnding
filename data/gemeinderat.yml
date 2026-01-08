@@ -1,0 +1,59 @@
+- name: "Jan Nestico"
+  listenplatz: 1
+  image: "/images/kandidaten/jan_quadratrisch.webp"
+  quote: "Schlauer Spruch"
+
+- name: "Christoph Möller"
+  listenplatz: 2
+  image: "/images/kandidaten/christoph_quadratisch.webp"
+  quote: "Schlauer Spruch"
+
+- name: "Marina Müller"
+  listenplatz: 3
+  image: "/images/kandidaten/marina_quadratisch.webp"
+  quote: "Schlauer Spruch"
+
+- name: "Patricia Jobst"
+  listenplatz: 4
+  image: "/images/kandidaten/patricia_quadratisch.webp"
+  quote: "Schlauer Spruch"
+
+- name: "Mario Fahlandt"
+  listenplatz: 5
+  image: "/images/kandidaten/mario_quadratisch.webp"
+  quote: "Schlauer Spruch"
+
+- name: "Karin Fleischer"
+  listenplatz: 6
+  image: "/images/kandidaten/karin_quadratisch.webp"
+  quote: "Schlauer Spruch"
+
+- name: "Simone Günthner"
+  listenplatz: 7
+  image: "/images/kandidaten/simone_quadratisch.webp"
+  quote: "Schlauer Spruch"
+
+- name: "Peter Griesch"
+  listenplatz: 8
+  image: "/images/kandidaten/peter_quadratisch.webp"
+  quote: "Schlauer Spruch"
+
+- name: "Helmut Cieslik"
+  listenplatz: 9
+  image: "/images/kandidaten/helmut_quadratisch.webp"
+  quote: "Schlauer Spruch"
+
+- name: "Kerstin Scholtz"
+  listenplatz: 10
+  image: "/images/kandidaten/kerstin_quadratisch.webp"
+  quote: "Schlauer Spruch"
+
+- name: "Stefan Mellios"
+  listenplatz: 11
+  image: "/images/kandidaten/stefan_quadratisch.webp"
+  quote: "Schlauer Spruch"
+
+- name: "Matthias Lauk"
+  listenplatz: 12
+  image: "/images/kandidaten/matthias_quadratisch.webp"
+  quote: "Schlauer Spruch"

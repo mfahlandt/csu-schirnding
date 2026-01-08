@@ -1,0 +1,19 @@
+- name: "Jan Nestico"
+  position: "Ortsvorsitzender"
+  image: "/images/kandidaten/jan_quadratrisch.webp"
+  quote: "Unsere Heimat aktiv gestalten – das ist mein Antrieb."
+
+- name: "Christoph Möller"
+  position: "Stellv. Ortsvorsitzende"
+  image: "/images/kandidaten/christoph_quadratisch.webp"
+  quote: "Ein offenes Ohr für die Anliegen unserer Bürger."
+
+- name: "Mario Fahlandt"
+  position: "Schatzmeister"
+  image: "/images/kandidaten/mario_quadratisch.webp"
+  quote: ""
+
+- name: "Sabine Schreiber"
+  position: "Schriftführerin"
+  image: "/images/vorstand/sabine-schreiber.jpg"
+  quote: ""
