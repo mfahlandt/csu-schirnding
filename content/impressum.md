@@ -6,20 +6,26 @@ draft: false
 
 ## Angaben gemäß § 5 TMG
 
-Max Mustermann
-CSU-Ortsverband Schirnding
-Musterstraße 1
+**CSU-Ortsverband Schirnding**
+Vertreten durch den Ortsvorsitzenden:
+Jan Nestico
+Fliederstraße 3
+95706 Schirnding
+
+**Webseitenbetreiber:**
+Mario Fahlandt
+Seedorf 1
 95706 Schirnding
 
 ## Kontakt
 
-Telefon: (09636) 1234
 E-Mail: info@csu-schirnding.de
 
 ## Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV
 
-Max Mustermann
-Anschrift wie oben
+Mario Fahlandt
+Seedorf 1
+95706 Schirnding
 
 ### Haftungsausschluss
 
@@ -31,5 +37,3 @@ Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wi
 
 **Urheberrecht**
 Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht.
-
-*Bitte ersetzen Sie diesen Text durch Ihr vollständiges, rechtssicheres Impressum.*

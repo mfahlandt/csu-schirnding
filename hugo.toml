@@ -3,6 +3,20 @@ languageCode = 'de-de'
 title = 'CSU Schirnding'
 theme = 'csu-lite'
 
+# Datenschutz-Einstellungen (Verhindert automatische externe Verbindungen)
+[privacy]
+  [privacy.vimeo]
+    disabled = false
+    simple = true
+    enableDNT = true
+  [privacy.twitter]
+    disabled = false
+    simple = true
+    enableDNT = true
+  [privacy.youtube]
+    disabled = false
+    privacyEnhanced = true
+
 [params]
   description = "Offizielle Website des CSU Ortsverbands Schirnding"
   heroImage = "images/schirnding-panorama.jpg"
@@ -11,10 +25,17 @@ theme = 'csu-lite'
   logo = "images/logo_weiss_transparent.png" # Pfad zum Logo in static/images/
   logoAlt = "CSU Schirnding Logo" # Alt-Text für das Logo
 
-  # Kommunalwahl Störer Konfiguration
+  # Kommunalwahl Störer Konfiguration (Startseite)
   kommunalwahlStoererText = "Alle Infos zur"
   kommunalwahlStoererHighlight = "Kommunalwahl 2026"
   kommunalwahlStoererLink = "/kommunalwahl-2026/"
+
+  # Globaler Wahl-Störer (Alle Seiten)
+  [params.election]
+    enabled = true
+    date = "Am 8. März"
+    text = "mit allen Stimmen CSU wählen – für eine starke Marktgemeinde!"
+    icon = "fas fa-times" # Font Awesome Icon Klasse
 
 [params.homepage]
   heroTitle = "Willkommen beim CSU-Ortsverband Schirnding"
@@ -23,8 +44,8 @@ theme = 'csu-lite'
   teamTitle = "Unsere Köpfe für Schirnding"
   teamSubtitle = "Lernen Sie die Menschen kennen, die sich für unsere Marktgemeinde stark machen."
   teamButtonText = "Unser Team"
-  teamImage = "images/kandidaten/alle_quadratisch.webp" # Alt-Text für das Team-Platzhalterbild
-  teamImageAlt = "CSU Gemeinderatskandidaten Schirnding" # Alt-Text für das Team-Platzhalterbild
+  teamImage = "images/kandidaten/alle_quadratisch.webp"
+  teamImageAlt = "CSU Gemeinderatskandidaten Schirnding"
 
 [params.socials]
   [[params.socials.links]]
@@ -39,17 +60,17 @@ theme = 'csu-lite'
 [params.footer]
   description = "Näher am Menschen. Wir gestalten die Zukunft unserer Heimat."
   contactPerson = "Vorsitzender Jan Nestico"
-  address = "Musterstraße 1, 95706 Schirnding"
+  address = "Fliederstraße 3, 95706 Schirnding"
   email = "info@csu-schirnding.de"
 
 [params.kommunalwahl]
-  mayorCandidateTitle = "Unser Bürgermeisterkandidat" # Oder "Unser Bürgermeisterkandidat"
-  countyCandidateTitle = "Unsere Kandidatin für den Kreistag" # Oder "Unser Kandidat für den Kreistag"
-  localCandidatesTitle = "Unsere Kandidaten für den Gemeinderat" # Oder "Unsere Kandidatinnen und Kandidaten für den Gemeinderat"
+  mayorCandidateTitle = "Unser Bürgermeisterkandidat"
+  countyCandidateTitle = "Unsere Kandidatin für den Kreistag"
+  localCandidatesTitle = "Unsere Kandidaten für den Gemeinderat"
   goalsTitle = "Unsere Schwerpunkte"
 
 [permalinks]
-  aktuelles = "/aktuelles/:slug/" # Korrigiert von 'post' zu 'aktuelles'
+  aktuelles = "/aktuelles/:slug/"
 
 [menu]
   [[menu.main]]

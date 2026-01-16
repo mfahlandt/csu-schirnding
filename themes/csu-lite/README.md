@@ -1,131 +1,129 @@
 # Hugo Theme: CSU-Lite
 
-Ein sauberes, modernes und konfigurierbares Hugo-Theme, das für CSU-Ortsverbände oder andere politische Organisationen entwickelt wurde. Das Design ist von der offiziellen Webseite `csu.de` inspiriert und bietet ein professionelles und wiedererkennbares Erscheinungsbild.
+Ein sauberes, modernes und konfigurierbares Hugo-Theme, das für CSU-Ortsverbände oder andere politische Organisationen entwickelt wurde. Das Design ist von der offiziellen Webseite `csu.de` inspiriert.
 
-![CSU-Lite Theme Screenshot](images/screenshot.png)  
-*(Hinweis: Du solltest einen Screenshot des Themes in einem `images`-Ordner innerhalb des Theme-Verzeichnisses hinzufügen).*
+![CSU-Lite Theme Screenshot](images/screenshot.png)
 
 ## Funktionen
 
-*   **Modernes & responsives Design:** Sieht auf Desktops, Tablets und mobilen Geräten hervorragend aus.
-*   **Umfangreich konfigurierbar:** Die meisten Texte und Einstellungen können direkt in der `hugo.toml`-Datei deiner Webseite geändert werden.
-*   **Datengesteuert:** Inhalte wie die Vorstandsliste werden zentral in Datendateien verwaltet und sind einfach zu pflegen.
-*   **Homepage-Abschnitte:**
-    *   Konfigurierbarer Hero-Bereich mit Hintergrundbild.
-    *   Automatische Box für "Nächste Termine".
-    *   "Aktuelles"-Abschnitt, der deine Beiträge anzeigt.
-    *   Konfigurierbarer Abschnitt "Unser Team".
-*   **Standard-Seiten:** Enthält Layouts für Nachrichtenartikel, Terminlisten, Kontaktseiten und rechtliche Seiten (Impressum, Datenschutz).
-*   **Lokale Assets:** Entwickelt, um mit allen Assets (CSS, JS, Schriftarten) lokal zu laufen.
+*   **Modernes & responsives Design:** Optimiert für alle Geräte.
+*   **Umfangreich konfigurierbar:** Texte und Einstellungen via `hugo.toml`.
+*   **Datengesteuert:** Kandidaten, Vorstand und Schwerpunkte werden einfach über YAML-Dateien gepflegt.
+*   **Spezialseiten:**
+    *   **Kommunalwahl:** Mit Kandidatenvorstellung, persönlichem Brief, Schwerpunkten und Sprungmenü.
+    *   **Fraktion:** Bereich für Berichte aus dem Gemeinderat/Stadtrat (konfigurierbar).
+*   **Features:**
+    *   Globaler "Wahl-Störer" (Top-Bar).
+    *   Automatische Termin-Box auf der Startseite.
+    *   Highlight-Box auf der Startseite.
 
 ## Installation & Verwendung
 
-Um dieses Theme zu verwenden, folge diesen Schritten:
+### 1. Theme installieren
 
-1.  **Theme hinzufügen:** Platziere den `csu-lite`-Ordner in das `themes/`-Verzeichnis deiner Hugo-Webseite.
+Der empfohlene Weg ist die Installation als Git Submodule. So kannst du das Theme einfach aktualisieren.
 
-2.  **`hugo.toml` konfigurieren:** Lege das Theme in der Hauptkonfigurationsdatei deiner Webseite fest.
+Führe folgenden Befehl im Hauptverzeichnis deiner Hugo-Webseite aus:
 
-    ```toml
-    # hugo.toml
-    theme = "csu-lite"
-    ```
-
-3.  **Hugo starten:** Starte den Hugo-Server, um das Theme in Aktion zu sehen.
-
-    ```bash
-    hugo server
-    ```
-
-## Konfiguration
-
-Dieses Theme wird über deine zentrale `hugo.toml`-Datei gesteuert. Nachfolgend findest du die wichtigsten Parameter, die du konfigurieren kannst.
-
-### Allgemeine Parameter
-
-```toml
-# hugo.toml
-baseURL = 'https://www.example.com/'
-languageCode = 'de-de'
-title = 'CSU Ortsverband Musterstadt'
-
-[permalinks]
-  post = "/aktuelles/:slug/"
+```bash
+git submodule add https://github.com/DEIN-USERNAME/csu-lite.git themes/csu-lite
 ```
 
-### Homepage-Parameter (`[params.homepage]`)
+*(Ersetze `https://github.com/DEIN-USERNAME/csu-lite.git` mit der tatsächlichen URL dieses Repositories)*
 
-Diese Sektion steuert alle Texte auf der Startseite.
+Alternativ kannst du das Theme auch herunterladen und manuell in den `themes/`-Ordner entpacken.
 
+### 2. Beispielinhalte nutzen (Schnellstart)
+
+Das Theme enthält einen `exampleSite`-Ordner mit einer vollständigen Konfiguration und Beispielinhalten. Um schnell zu starten, kopiere den Inhalt dieses Ordners in dein Projektverzeichnis:
+
+**Achtung: Dies überschreibt vorhandene Dateien!**
+
+1.  Kopiere `themes/csu-lite/exampleSite/hugo.toml` in dein Hauptverzeichnis.
+2.  Kopiere den Inhalt von `themes/csu-lite/exampleSite/content/` in deinen `content/`-Ordner.
+3.  Kopiere den Inhalt von `themes/csu-lite/exampleSite/data/` in deinen `data/`-Ordner.
+4.  Kopiere den Inhalt von `themes/csu-lite/exampleSite/static/` in deinen `static/`-Ordner.
+
+### 3. Konfigurieren
+
+Öffne die `hugo.toml` in deinem Hauptverzeichnis und passe die Einstellungen an deine Bedürfnisse an (Titel, URLs, Texte, etc.).
+
+### 4. Starten
+
+Starte den Hugo-Server:
+
+```bash
+hugo server
+```
+
+## Konfiguration (`hugo.toml`)
+
+### Homepage (`[params.homepage]`)
 ```toml
-# hugo.toml
 [params.homepage]
-  heroTitle = "Willkommen beim CSU-Ortsverband Musterstadt"
-  heroSubtitle = "Gestalten Sie mit uns die Zukunft unserer Heimat."
+  heroTitle = "Willkommen..."
+  heroSubtitle = "Gestalten Sie..."
   newsTitle = "Aktuelles aus dem Ortsverband"
-  teamTitle = "Unsere Köpfe für Musterstadt"
-  teamSubtitle = "Lernen Sie die Menschen kennen, die sich für unsere Gemeinde stark machen."
+  teamTitle = "Unsere Köpfe"
   teamButtonText = "Unser Team"
+  teamImage = "images/team.jpg"
+  teamImageAlt = "Unser Team"
+
+  [params.homepage.highlightBox]
+    enabled = true
+    title = "Kommunalwahl 2026"
+    content = "Lernen Sie unsere Kandidaten kennen..."
+    url = "/kommunalwahl-2026/"
+    linkText = "Zu den Kandidaten"
 ```
 
-## Daten-Management
-
-Wiederkehrende Inhalte wie die Vorstandsliste werden zentral im `data`-Verzeichnis deines Projekts verwaltet.
-
-### Vorstand
-
-Um die Mitgliederliste auf der `/vorstand`-Seite zu bearbeiten, öffne die Datei `data/vorstand.yml`.
-
-**Beispielstruktur (`data/vorstand.yml`):**
-```yaml
-- name: "Max Mustermann"
-  position: "Ortsvorsitzender"
-  image: "/images/vorstand/max-mustermann.jpg"
-  quote: "Unsere Heimat aktiv gestalten – das ist mein Antrieb."
-
-- name: "Erika Musterfrau"
-  position: "Stellv. Ortsvorsitzende"
-  image: "/images/vorstand/erika-musterfrau.jpg"
-  quote: "Ein offenes Ohr für die Anliegen unserer Bürger."
-
-# ... weitere Mitglieder hier hinzufügen
+### Globaler Wahl-Störer (`[params.election]`)
+```toml
+[params.election]
+  enabled = true
+  date = "Am 8. März"
+  text = "CSU wählen!"
+  icon = "fas fa-times"
 ```
-Du kannst Einträge hinzufügen, entfernen oder die Reihenfolge ändern. Das Layout passt sich automatisch an.
+
+### Kommunalwahl (`[params.kommunalwahl]`)
+```toml
+[params.kommunalwahl]
+  mayorCandidateTitle = "Unser Bürgermeisterkandidat"
+  countyCandidateTitle = "Unsere Kandidatin für den Kreistag"
+  localCandidatesTitle = "Unsere Kandidaten für den Gemeinderat"
+  goalsTitle = "Unsere Schwerpunkte"
+```
+
+## Daten-Management (`data/`)
+
+Inhalte werden zentral im `data`-Verzeichnis verwaltet:
+
+*   **`vorstand.yml`:** Liste der Vorstandsmitglieder.
+*   **`gemeinderat.yml`:** Gemeinderatskandidaten (Name, Bild, Listenplatz, Beruf, Alter, Zitat).
+*   **`kreistag.yml`:** Kreistagskandidaten.
+*   **`buergermeister.yml`:** Bürgermeisterkandidat.
+*   **`schwerpunkte.yml`:** Politische Ziele mit Icons.
 
 ## Inhaltstypen
 
-Das Theme erwartet, dass Inhalte auf eine bestimmte Weise organisiert sind:
+*   **Aktuelles:** `content/aktuelles/`. Setze `type: aktuelles` im Frontmatter.
+*   **Termine:** `content/termine/`.
+    *   **Wichtig:** Nutze das Feld `eventDate` für das tatsächliche Datum (Format: `YYYY-MM-DDTHH:MM:SS+ZZ:ZZ`).
+    *   Setze das Standard-`date` Feld auf ein Datum in der Vergangenheit (z.B. 2000), damit Hugo die Seite immer baut.
+*   **Fraktion:** `content/fraktion/`.
+    *   Setze `draft: false` in `_index.md` zum Veröffentlichen.
+    *   Beiträge können `label: "Fraktion"` oder `label: "Bürgermeister"` haben.
+*   **Kommunalwahl:** `content/kommunalwahl-2026.md`. Der Textkörper dieser Datei wird als "Persönlicher Brief" angezeigt.
 
-*   **Aktuelles:** Platziere deine Nachrichtenartikel in `content/post/`.
-*   **Termine:** Platziere deine Termine in `content/termine/`. Stelle sicher, dass das `date`-Feld in der Zukunft liegt, damit sie auf der Startseite erscheinen.
+## Theme-Entwicklung & Screenshots
 
-## Mitwirken
+Wenn du das Theme weiterentwickelst oder in der Hugo Theme Registry veröffentlichen möchtest, beachte bitte folgende Bildanforderungen im `images/`-Ordner des Themes:
 
-Beiträge sind willkommen! Ob es sich um die Behebung eines Fehlers, die Verbesserung einer Funktion oder einen Vorschlag für eine neue handelt – deine Hilfe wird geschätzt.
-
-1.  **Fehler melden:** Wenn du einen Fehler findest oder einen Vorschlag hast, eröffne bitte ein "Issue" im Repository des Projekts.
-2.  **Pull-Requests:**
-    *   Erstelle einen "Fork" des Repositorys.
-    *   Erstelle einen neuen Branch (`git checkout -b feature/mein-neues-feature`).
-    *   Nimm deine Änderungen vor und committe sie.
-    *   Erstelle einen neuen Pull-Request.
+*   **`screenshot.png` (1500x1000px):** Ein großer, repräsentativer Screenshot der Startseite.
+*   **`tn.png` (900x600px):** Ein Thumbnail (Vorschaubild) für die Galerieansicht. Dies sollte ein gut erkennbarer Ausschnitt oder eine verkleinerte Version sein.
 
 ## Lizenz
 
-Dieses Theme ist unter der **Apache License 2.0** lizenziert. Es steht dir frei, es zu verwenden, zu modifizieren und zu verbreiten.
-
-```
-Copyright 2026 [Dein Name oder deine Organisation]
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-```
+Apache License 2.0
+Copyright 2026

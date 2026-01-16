@@ -58,7 +58,19 @@
     <div class="container">
         <div class="row g-4">
             <div class="col-md-6">
-                {{ partial "feature_tile.html" (dict "badge_text" "Live" "badge_class" "bg-danger" "title" "CSU-Parteitag" "content" "Verfolgen Sie den CSU-Parteitag live aus München und seien Sie bei den wichtigsten Entscheidungen dabei." "url" "#" "link_text" "Zum Livestream") }}
+                {{ if .Site.Params.homepage.highlightBox.enabled }}
+                    {{ partial "feature_tile.html" (dict
+                        "badge_text" .Site.Params.homepage.highlightBox.badgeText
+                        "badge_class" (.Site.Params.homepage.highlightBox.badgeClass | default "bg-csu-blue")
+                        "title" .Site.Params.homepage.highlightBox.title
+                        "content" .Site.Params.homepage.highlightBox.content
+                        "url" .Site.Params.homepage.highlightBox.url
+                        "link_text" .Site.Params.homepage.highlightBox.linkText)
+                    }}
+                {{ else }}
+                    {{/* Fallback or alternative content if disabled */}}
+                    {{ partial "feature_tile.html" (dict "badge_text" "Live" "badge_class" "bg-danger" "title" "CSU-Parteitag" "content" "Verfolgen Sie den CSU-Parteitag live aus München und seien Sie bei den wichtigsten Entscheidungen dabei." "url" "#" "link_text" "Zum Livestream") }}
+                {{ end }}
             </div>
             <div class="col-md-6">
                 {{ partial "feature_tile.html" (dict "badge_text" "Aktuell" "title" "Neues aus Schirnding" "content" "Lesen Sie die neuesten Nachrichten und Berichte aus unserem Ortsverband und der Marktgemeinde." "url" "/aktuelles" "link_text" "Zu den Meldungen") }}

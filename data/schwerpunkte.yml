@@ -1,19 +1,19 @@
-- title: "Lebensqualität"
+- title: "LEBENSQUALITÄT FÜR ALLE GENERATIONEN"
+  icon: "fas fa-heart"
+  description: "Wir wollen, dass Schirnding für Jung und Alt lebenswert bleibt, mit lebendigen Begegnungsorten und Angeboten für alle Generationen. Unser Ziel ist es die Nahversorgung zu stärken und die medizinische Grundversorgung zu erhalten."
+
+- title: "SICHERHEIT UND SAUBERKEIT"
+  icon: "fas fa-shield-alt"
+  description: "Wir setzen auf eine enge Sicherheitspartnerschaft mit Polizei und Bundespolizei, sowie feste Ansprechpartner bei den Behörden. Sicherheit bedeutet für uns aber auch Prävention im Alltag: Unser Ziel ist eine flächendeckende, moderne Straßenbeleuchtung und sichere Gehwege. Ein sauberes Ortsbild und gepflegte Grünanlagen sind für uns die Visitenkarte einer Gemeinde, auf die wir stolz sein können."
+
+- title: "EHRENAMT UND VEREINSLEBEN STÄRKEN"
+  icon: "fas fa-hands-helping"
+  description: "Das Ehrenamt ist das Rückgrat unserer Gemeinde. Vereine, Initiativen und freiwilliges Engagement verdienen Wertschätzung, Unterstützung und verlässliche Ansprechpartner im Rathaus. Veranstaltungen müssen noch mehr geschätzt und gefördert werden."
+
+- title: "WOHNRAUM SCHAFFEN UND ERHALTEN"
   icon: "fas fa-home"
-  description: "Moderne Infrastruktur, saubere Umwelt und attraktive Freizeitangebote für alle Generationen."
+  description: "Wohnen muss bezahlbar und passend für jede Lebensphase sein. Wir wollen attraktive Bauplätze erschließen und gute Freizeitangebote garantieren, damit Familien gerne in Schirnding leben. Ein weiteres Ziel ist die Schaffung von barrierefreiem Wohnraum für Senioren und attraktiven Startwohnungen für junge Familien."
 
-- title: "Wirtschaft & Arbeit"
-  icon: "fas fa-briefcase"
-  description: "Stärkung der lokalen Betriebe, Förderung von Neugründungen und Sicherung von Arbeitsplätzen."
-
-- title: "Sozialer Zusammenhalt"
-  icon: "fas fa-users"
-  description: "Ein lebendiges Vereinsleben, Unterstützung des Ehrenamts und Dialog zwischen den Generationen."
-
-- title: "Digitalisierung"
-  icon: "fas fa-wifi"
-  description: "Ausbau des schnellen Internets und digitale Angebote für Bürger und Verwaltung."
-
-- title: "Familie & Bildung"
-  icon: "fas fa-child"
-  description: "Stärkung unserer Kindergärten und Schulen, familienfreundliche Angebote."
+- title: "EINE TRANSPARENTE MODERNE GEMEINDE"
+  icon: "fas fa-bullhorn"
+  description: "Entscheidungen des Marktgemeinderates sollen künftig transparent dargelegt und begründet werden. Dabei ist ein enger Austausch mit den Bevölkerung notwendig. Dies wollen wir unter anderem durch Bürgersprechstunden sicherstellen. Wir werden unsere digitalen Angebote ausbauen und Bürger über verschiedene Medien verlässlich informieren."

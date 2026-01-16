@@ -13,14 +13,12 @@
         <div class="col-lg-6">
             <h3 class="text-csu-blue mb-4">Anschrift & Erreichbarkeit</h3>
             <p>
-                <strong>CSU-Ortsverband Schirnding</strong><br>
-                Max Mustermann (Ortsvorsitzender)<br>
-                Musterstraße 1<br>
-                95706 Schirnding
+                <strong>{{ .Site.Title }}</strong><br>
+                {{ .Site.Params.footer.contactPerson }}<br>
+                {{ .Site.Params.footer.address }}
             </p>
             <p>
-                <strong>E-Mail:</strong> <a href="mailto:info@csu-schirnding.de">info@csu-schirnding.de</a><br>
-                <strong>Telefon:</strong> (09636) 1234
+                <strong>E-Mail:</strong> <a href="mailto:{{ .Site.Params.footer.email }}">{{ .Site.Params.footer.email }}</a>
             </p>
 
             {{/* Placeholder for a map */}}

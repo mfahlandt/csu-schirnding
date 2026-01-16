@@ -1,0 +1,3 @@
+[submodule "themes/csu-lite"]
+	path = themes/csu-lite
+	url = https://github.com/mfahlandt/csu-lite.git

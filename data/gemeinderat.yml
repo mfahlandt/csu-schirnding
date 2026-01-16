@@ -1,59 +1,83 @@
 - name: "Jan Nestico"
   listenplatz: 1
   image: "/images/kandidaten/jan_quadratrisch.webp"
-  quote: "Schlauer Spruch"
+  beruf: "Fachkrankenpfleger"
+  alter: 37
+  quote: "Ich setze mich mit Herz und Verstand für eine gesicherte medizinische Nahversorgung und ein starkes Miteinander aller Generationen in Schirnding ein."
 
 - name: "Christoph Möller"
   listenplatz: 2
   image: "/images/kandidaten/christoph_quadratisch.webp"
-  quote: "Schlauer Spruch"
+  beruf: "Ingenieur"
+  alter: 30
+  quote: "Als Ingenieur stehe ich für echten Fortschritt, der bei der Jugend ankommt: Moderne Infrastruktur und digitale Angebote müssen Schirnding für die nächste Generation attraktiv machen."
 
 - name: "Marina Müller"
   listenplatz: 3
   image: "/images/kandidaten/marina_quadratisch.webp"
-  quote: "Schlauer Spruch"
+  beruf: "Sozialversicherungsfachangestellte"
+  alter: 38
+  quote: "Ich mache mich stark für soziale Gerechtigkeit, transparente Entscheidungen im Gemeinderat und ein offenes Ohr für die Anliegen unserer Familien."
 
 - name: "Patricia Jobst"
   listenplatz: 4
   image: "/images/kandidaten/patricia_quadratisch.webp"
-  quote: "Schlauer Spruch"
+  beruf: "Konditorin"
+  alter: 31
+  quote: "Mit Liebe zum Handwerk und zur Tradition möchte ich unser Dorfleben ‚versüßen‘ und mich für lebendige Veranstaltungen und Feste engagieren."
 
 - name: "Mario Fahlandt"
   listenplatz: 5
   image: "/images/kandidaten/mario_quadratisch.webp"
-  quote: "Schlauer Spruch"
-
-- name: "Karin Fleischer"
-  listenplatz: 6
-  image: "/images/kandidaten/karin_quadratisch.webp"
-  quote: "Schlauer Spruch"
+  beruf: "IT Architekt"
+  alter: 38
+  quote: "Ich stehe für ein modernes Schirnding, digitale Bürgerdienste im Rathaus und innovative Konzepte gegen Leerstand in unserem Ortskern."
 
 - name: "Simone Günthner"
-  listenplatz: 7
+  listenplatz: 6
   image: "/images/kandidaten/simone_quadratisch.webp"
-  quote: "Schlauer Spruch"
+  beruf: "Automobilkauffrau"
+  alter: 42
+  quote: "Mit kaufmännischem Sachverstand setze ich mich für eine solide Haushaltsführung und die Stärkung unserer lokalen Gewerbetreibenden ein."
+
+- name: "Karin Fleischer"
+  listenplatz: 7
+  image: "/images/kandidaten/karin_quadratisch.webp"
+  beruf: "Bürgermeisterin"
+  alter: 67
+  quote: "Für eine weitere positive Entwicklung von Schirnding setze ich mich mit aller Kraft und Energie ein und bringe meine Erfahrungen und bewährten Kontakte ein."
 
 - name: "Peter Griesch"
   listenplatz: 8
   image: "/images/kandidaten/peter_quadratisch.webp"
-  quote: "Schlauer Spruch"
+  beruf: "Software Betreuer"
+  alter: 53
+  quote: "Das Vereinsleben ist der Kitt unserer Gesellschaft – ich setze mich dafür ein, dass unsere Vereine die Förderung erhalten, die sie für ihre wichtige Arbeit brauchen."
 
 - name: "Helmut Cieslik"
   listenplatz: 9
   image: "/images/kandidaten/helmut_quadratisch.webp"
-  quote: "Schlauer Spruch"
+  beruf: "Mietwagenunternehmer"
+  alter: 66
+  quote: "Mobilität und eine gute Verkehrsanbindung sind für unsere Gemeinde und gerade für die ältere Generation unverzichtbar."
 
 - name: "Kerstin Scholtz"
   listenplatz: 10
   image: "/images/kandidaten/kerstin_quadratisch.webp"
-  quote: "Schlauer Spruch"
+  beruf: "Betreuungskraft"
+  alter: 52
+  quote: "Mein Herz schlägt für das Soziale: Ich kämpfe für barrierefreies Wohnen und mehr Unterstützung für unsere Senioren und Pflegebedürftigen vor Ort."
 
 - name: "Stefan Mellios"
   listenplatz: 11
   image: "/images/kandidaten/stefan_quadratisch.webp"
-  quote: "Schlauer Spruch"
+  beruf: "Bauhofmitarbeiter"
+  alter: 57
+  quote: "Ich kenne jeden Winkel unserer Gemeinde und packe praktisch an, damit unsere Straßen, Wege und Grünanlagen sauber, sicher und gepflegt bleiben."
 
 - name: "Matthias Lauk"
   listenplatz: 12
   image: "/images/kandidaten/matthias_quadratisch.webp"
-  quote: "Schlauer Spruch"
+  beruf: "Sprengtechniker"
+  alter: 52
+  quote: "Sicherheit schafft Lebensqualität: Unser Ziel ist es gemeinsam für Ordnung und ein sicheres Miteinander in unserer Gemeinde zu sorgen."
