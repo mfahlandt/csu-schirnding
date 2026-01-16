@@ -55,13 +55,16 @@ theme = 'csu-lite'
   [[params.socials.links]]
     name = "Instagram"
     icon = "fab fa-instagram"
-    url = "https://www.instagram.com/CSUSchirnding"
+    url = "https://www.instagram.com/csu_schirnding/"
 
 [params.footer]
   description = "Näher am Menschen. Wir gestalten die Zukunft unserer Heimat."
   contactPerson = "Vorsitzender Jan Nestico"
   address = "Fliederstraße 3, 95706 Schirnding"
   email = "info@csu-schirnding.de"
+
+[params.contact]
+  formspreeID = "mkooookb" # Deine Formspree-ID
 
 [params.kommunalwahl]
   mayorCandidateTitle = "Unser Bürgermeisterkandidat"
