@@ -19,18 +19,19 @@ theme = 'csu-lite'
 
 [params]
   description = "Offizielle Website des CSU Ortsverbands Schirnding"
+  keywords = ["CSU", "Schirnding", "Ortsverband", "Politik", "Bayern", "Kommunalwahl", "Gemeinderat"]
   heroImage = "images/schirnding-panorama.jpg"
 
   # Logo Konfiguration
   logo = "images/logo_weiss_transparent.png" # Pfad zum Logo in static/images/
   logoAlt = "CSU Schirnding Logo" # Alt-Text für das Logo
 
-  # Runder Kommunalwahl Störer Konfiguration (Startseite )
+  # Kommunalwahl Störer Konfiguration (Startseite)
   kommunalwahlStoererText = "Alle Infos zur"
   kommunalwahlStoererHighlight = "Kommunalwahl 2026"
   kommunalwahlStoererLink = "/kommunalwahl-2026/"
 
-  # Globaler Wahl-Störer (Alle Seiten - Top Bar)
+  # Globaler Wahl-Störer (Alle Seiten)
   [params.election]
     enabled = true
     date = "Am 8. März"
