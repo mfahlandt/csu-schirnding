@@ -25,12 +25,12 @@ theme = 'csu-lite'
   logo = "images/logo_weiss_transparent.png" # Pfad zum Logo in static/images/
   logoAlt = "CSU Schirnding Logo" # Alt-Text für das Logo
 
-  # Kommunalwahl Störer Konfiguration (Startseite)
+  # Runder Kommunalwahl Störer Konfiguration (Startseite )
   kommunalwahlStoererText = "Alle Infos zur"
   kommunalwahlStoererHighlight = "Kommunalwahl 2026"
   kommunalwahlStoererLink = "/kommunalwahl-2026/"
 
-  # Globaler Wahl-Störer (Alle Seiten)
+  # Globaler Wahl-Störer (Alle Seiten - Top Bar)
   [params.election]
     enabled = true
     date = "Am 8. März"
@@ -46,6 +46,16 @@ theme = 'csu-lite'
   teamButtonText = "Unser Team"
   teamImage = "images/kandidaten/alle_quadratisch.webp"
   teamImageAlt = "CSU Gemeinderatskandidaten Schirnding"
+
+  # Konfigurierbare Highlight-Box (links neben "Neues aus Schirnding")
+  [params.homepage.highlightBox]
+    enabled = true
+    badgeText = "Wahl 2026"
+    badgeClass = "bg-csu-green"
+    title = "Kommunalwahl 2026"
+    content = "Lernen Sie unsere Kandidaten und Ziele für Schirnding kennen. Gemeinsam für eine starke Zukunft."
+    url = "/kommunalwahl-2026/"
+    linkText = "Zu den Kandidaten"
 
 [params.socials]
   [[params.socials.links]]
