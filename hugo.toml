@@ -27,13 +27,14 @@ theme = 'csu-lite'
   logoAlt = "CSU Schirnding Logo" # Alt-Text für das Logo
 
   # Kommunalwahl Störer Konfiguration (Startseite)
-  kommunalwahlStoererText = "Alle Infos zur"
-  kommunalwahlStoererHighlight = "Kommunalwahl 2026"
-  kommunalwahlStoererLink = "/kommunalwahl-2026/"
+  # Nach der Kommunalwahl 2026 deaktiviert – zum Reaktivieren einfach den Link wieder setzen.
+  # kommunalwahlStoererText = "Alle Infos zur"
+  # kommunalwahlStoererHighlight = "Kommunalwahl 2026"
+  # kommunalwahlStoererLink = "/kommunalwahl-2026/"
 
   # Globaler Wahl-Störer (Alle Seiten)
   [params.election]
-    enabled = true
+    enabled = false
     date = "Am 8. März"
     text = "mit allen Stimmen CSU wählen – für eine starke Marktgemeinde!"
     icon = "fas fa-times" # Font Awesome Icon Klasse
@@ -51,12 +52,12 @@ theme = 'csu-lite'
   # Konfigurierbare Highlight-Box (links neben "Neues aus Schirnding")
   [params.homepage.highlightBox]
     enabled = true
-    badgeText = "Wahl 2026"
-    badgeClass = "bg-csu-green"
-    title = "Kommunalwahl 2026"
-    content = "Lernen Sie unsere Kandidaten und Ziele für Schirnding kennen. Gemeinsam für eine starke Zukunft."
-    url = "/kommunalwahl-2026/"
-    linkText = "Zu den Kandidaten"
+    badgeText = "Neu gewählt"
+    badgeClass = "bg-csu-blue"
+    title = "Unser Gemeinderat"
+    content = "Nach der Kommunalwahl 2026: Lernen Sie unseren neuen Bürgermeister und die gewählten Gemeinderätinnen und Gemeinderäte kennen."
+    url = "/gemeinderat/"
+    linkText = "Zum Gemeinderat"
 
 [params.socials]
   [[params.socials.links]]
@@ -104,8 +105,8 @@ theme = 'csu-lite'
     url = "/vorstand/"
     weight = 40
   [[menu.main]]
-    name = "Kommunalwahl 2026"
-    url = "/kommunalwahl-2026/"
+    name = "Gemeinderat"
+    url = "/gemeinderat/"
     weight = 45
   [[menu.main]]
     name = "Kontakt"

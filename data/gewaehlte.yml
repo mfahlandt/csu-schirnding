@@ -1,0 +1,53 @@
+# Gewählte Mandatsträger der CSU Schirnding nach der Kommunalwahl 2026.
+# Bürgermeister (1. Bürgermeister) ist kraft Amtes auch Mitglied des Gemeinderats.
+
+buergermeister:
+  name: "Jan Nestico"
+  amt: "1. Bürgermeister"
+  image: "/images/kandidaten/jan_quadratrisch.webp"
+  beruf: "Fachkrankenpfleger"
+  quote: "Mit Herz und Verstand für unser Schirnding – Bürgermeister für alle Generationen."
+
+gemeinderaete:
+  - name: "Jan Nestico"
+    rolle: "1. Bürgermeister & Gemeinderat"
+    image: "/images/kandidaten/jan_quadratrisch.webp"
+    beruf: "Fachkrankenpfleger"
+    quote: "Ich setze mich mit Herz und Verstand für eine gesicherte medizinische Nahversorgung und ein starkes Miteinander aller Generationen in Schirnding ein."
+
+  - name: "Christoph Möller"
+    rolle: "Gemeinderat"
+    image: "/images/kandidaten/christoph_quadratisch.webp"
+    beruf: "Ingenieur"
+    quote: "Als Ingenieur stehe ich für echten Fortschritt, der bei der Jugend ankommt: Moderne Infrastruktur und digitale Angebote müssen Schirnding für die nächste Generation attraktiv machen."
+
+  - name: "Karin Fleischer"
+    rolle: "Gemeinderätin"
+    image: "/images/kandidaten/karin_quadratisch.webp"
+    beruf: "Bürgermeisterin a. D."
+    quote: "Für eine weitere positive Entwicklung von Schirnding setze ich mich mit aller Kraft und Energie ein und bringe meine Erfahrungen und bewährten Kontakte ein."
+
+  - name: "Stefan Mellios"
+    rolle: "Gemeinderat"
+    image: "/images/kandidaten/stefan_quadratisch.webp"
+    beruf: "Bauhofmitarbeiter"
+    quote: "Ich kenne jeden Winkel unserer Gemeinde und packe praktisch an, damit unsere Straßen, Wege und Grünanlagen sauber, sicher und gepflegt bleiben."
+
+  - name: "Patricia Jobst"
+    rolle: "Gemeinderätin"
+    image: "/images/kandidaten/patricia_quadratisch.webp"
+    beruf: "Konditorin"
+    quote: "Mit Liebe zum Handwerk und zur Tradition möchte ich unser Dorfleben ‚versüßen‘ und mich für lebendige Veranstaltungen und Feste engagieren."
+
+  - name: "Marina Müller"
+    rolle: "Gemeinderätin"
+    image: "/images/kandidaten/marina_quadratisch.webp"
+    beruf: "Sozialversicherungsfachangestellte"
+    quote: "Ich mache mich stark für soziale Gerechtigkeit, transparente Entscheidungen im Gemeinderat und ein offenes Ohr für die Anliegen unserer Familien."
+
+  - name: "Helmut Cieslik"
+    rolle: "Gemeinderat"
+    image: "/images/kandidaten/helmut_quadratisch.webp"
+    beruf: "Mietwagenunternehmer"
+    quote: "Mobilität und eine gute Verkehrsanbindung sind für unsere Gemeinde und gerade für die ältere Generation unverzichtbar."
+

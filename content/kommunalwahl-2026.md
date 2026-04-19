@@ -2,7 +2,7 @@
 title: "Kommunalwahl 2026"
 subtitle: "Gemeinsam für die Zukunft unserer Heimat."
 date: 2023-11-01T12:05:00+01:00
-draft: false
+draft: true
 layout: "kommunalwahl"
 ---
 
