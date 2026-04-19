@@ -32,6 +32,11 @@ defaults:
   run:
     shell: bash
 
+# Zwingt alle JavaScript-basierten Actions auf Node.js 24 (ab Juni 2026 Default).
+# Siehe: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
 jobs:
   # Build job
   build:
@@ -40,7 +45,7 @@ jobs:
       HUGO_VERSION: 0.128.0
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           submodules: recursive
           fetch-depth: 0
