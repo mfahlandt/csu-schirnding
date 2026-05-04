@@ -42,6 +42,16 @@ git commit -m "Update Theme"
 git push
 ```
 
+## SEO & Google-Indizierung
+
+Damit die Seite von Google korrekt indiziert wird, sind folgende Dateien wichtig:
+
+- **`static/robots.txt`** – Erlaubt Suchmaschinen das Crawlen und verweist auf die Sitemap.
+- **`content/_index.md`** – Setzt die Meta-Description der Startseite (ohne diese wird Platzhaltertext angezeigt).
+- **Sitemap:** Wird automatisch von Hugo unter `/sitemap.xml` generiert.
+
+Nach dem Deployment empfiehlt es sich, die Seite in der [Google Search Console](https://search.google.com/search-console) zu verifizieren und die Sitemap dort einzureichen.
+
 ## Deployment
 
 Die Seite wird automatisch via **GitHub Actions** gebaut und auf **GitHub Pages** veröffentlicht, sobald Änderungen in den `main`-Branch gepusht werden.
