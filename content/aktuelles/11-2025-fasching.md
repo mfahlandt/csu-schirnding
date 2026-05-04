@@ -1,5 +1,5 @@
 ---
-title: "Emotionale Einstimmung auf den Advent mit den Jobstis"
+title: "Helau und Alaaf: Faschingssaison in Schirnding eröffnet"
 date: 2025-11-11T19:00:00+01:00
 draft: false
 image: "/images/aktuelles/fasching_2026.webp"
