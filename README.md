@@ -44,11 +44,18 @@ git push
 
 ## SEO & Google-Indizierung
 
-Damit die Seite von Google korrekt indiziert wird, sind folgende Dateien wichtig:
+Damit die Seite von Google korrekt indiziert wird, sind folgende Dateien und Einstellungen wichtig:
 
 - **`static/robots.txt`** – Erlaubt Suchmaschinen das Crawlen und verweist auf die Sitemap.
-- **`content/_index.md`** – Setzt die Meta-Description der Startseite (ohne diese wird Platzhaltertext angezeigt).
+- **`content/_index.md`** – Setzt die Meta-Description der Startseite.
+- **`ogImage`** in `hugo.toml` – Vorschaubild für Social Media (Facebook, WhatsApp etc.).
 - **Sitemap:** Wird automatisch von Hugo unter `/sitemap.xml` generiert.
+- **Taxonomien** sind in `hugo.toml` deaktiviert (`[taxonomies]` leer), damit keine leeren `/tags/` und `/categories/`-Seiten in der Sitemap erscheinen.
+
+Das Theme generiert automatisch:
+- Open Graph & Twitter Card Meta-Tags (inkl. og:image Fallback)
+- Schema.org Structured Data (PoliticalParty, Event, BreadcrumbList)
+- Canonical URLs
 
 Nach dem Deployment empfiehlt es sich, die Seite in der [Google Search Console](https://search.google.com/search-console) zu verifizieren und die Sitemap dort einzureichen.
 
