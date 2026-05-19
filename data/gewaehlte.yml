@@ -10,44 +10,49 @@ buergermeister:
 
 gemeinderaete:
   - name: "Jan Nestico"
-    rolle: "1. Bürgermeister & Gemeinderat"
+    rolle: "1. Bürgermeister"
     image: "/images/kandidaten/jan_quadratrisch.webp"
     beruf: "Fachkrankenpfleger"
     quote: "Ich setze mich mit Herz und Verstand für eine gesicherte medizinische Nahversorgung und ein starkes Miteinander aller Generationen in Schirnding ein."
 
   - name: "Christoph Möller"
-    rolle: "Gemeinderat"
+    rolle: "2. Bürgermeister"
     image: "/images/kandidaten/christoph_quadratisch.webp"
     beruf: "Ingenieur"
     quote: "Als Ingenieur stehe ich für echten Fortschritt, der bei der Jugend ankommt: Moderne Infrastruktur und digitale Angebote müssen Schirnding für die nächste Generation attraktiv machen."
 
+  - name: "Peter Griesch"
+    rolle: "Weiterer stellv. Bürgermeister, Vertreter VG"
+    image: "/images/kandidaten/peter_quadratisch.webp"
+    beruf: "Software Betreuer"
+    quote: "Das Vereinsleben ist der Kitt unserer Gesellschaft – ich setze mich dafür ein, dass unsere Vereine die Förderung erhalten, die sie für ihre wichtige Arbeit brauchen."
+
   - name: "Karin Fleischer"
-    rolle: "Gemeinderätin"
+    rolle: "Fraktionssprecherin, stellv. Vertreterin VG"
     image: "/images/kandidaten/karin_quadratisch.webp"
     beruf: "Bürgermeisterin a. D."
     quote: "Für eine weitere positive Entwicklung von Schirnding setze ich mich mit aller Kraft und Energie ein und bringe meine Erfahrungen und bewährten Kontakte ein."
 
   - name: "Stefan Mellios"
-    rolle: "Gemeinderat"
+    rolle: "Gemeinderat, Vertreter VG"
     image: "/images/kandidaten/stefan_quadratisch.webp"
     beruf: "Bauhofmitarbeiter"
     quote: "Ich kenne jeden Winkel unserer Gemeinde und packe praktisch an, damit unsere Straßen, Wege und Grünanlagen sauber, sicher und gepflegt bleiben."
 
   - name: "Patricia Jobst"
-    rolle: "Gemeinderätin"
+    rolle: "Jugendbeauftragte"
     image: "/images/kandidaten/patricia_quadratisch.webp"
     beruf: "Konditorin"
-    quote: "Mit Liebe zum Handwerk und zur Tradition möchte ich unser Dorfleben ‚versüßen‘ und mich für lebendige Veranstaltungen und Feste engagieren."
+    quote: "Mit Liebe zum Handwerk und zur Tradition möchte ich unser Dorfleben ‚versüßen' und mich für lebendige Veranstaltungen und Feste engagieren."
 
   - name: "Marina Müller"
-    rolle: "Gemeinderätin"
+    rolle: "Stellv. Jugendbeauftragte"
     image: "/images/kandidaten/marina_quadratisch.webp"
     beruf: "Sozialversicherungsfachangestellte"
     quote: "Ich mache mich stark für soziale Gerechtigkeit, transparente Entscheidungen im Gemeinderat und ein offenes Ohr für die Anliegen unserer Familien."
 
   - name: "Helmut Cieslik"
-    rolle: "Gemeinderat"
+    rolle: "Gemeinderat, stellv. Vertreter VG"
     image: "/images/kandidaten/helmut_quadratisch.webp"
     beruf: "Mietwagenunternehmer"
     quote: "Mobilität und eine gute Verkehrsanbindung sind für unsere Gemeinde und gerade für die ältere Generation unverzichtbar."
-
